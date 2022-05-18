@@ -6,3 +6,5 @@
 #include <stdlib.h>
 
 int printc(char *format, va_list);
+
+#endif
