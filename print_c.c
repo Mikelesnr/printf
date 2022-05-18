@@ -1,12 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *printc - prints string
- *format - is the first argument
- *return - returns the number of characters printed
- */
-
+ * _printf - Produces output according to a format
+ * @format: Is a character string. The format string
+ * is composed of zero or more directives
+ *
+ * Return: The number of characters printed (excluding
+ * the null byte used to end output to strings)
+ **/
 int _printf(const char *format, ...)
 {
 	int size;
